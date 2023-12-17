@@ -7,6 +7,8 @@ from nltk.stem.porter import PorterStemmer
 from PIL import Image
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+ps=PorterStemmer()
+
 nltk.download('punkt')
 nltk.download('stopwords')
 
